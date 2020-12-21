@@ -1,5 +1,9 @@
 function productOfAnyAmountOfNumbers(...args) {
-  // Insert code here;
+	let product = 1;
+	for (const value of args) {
+		product *= value;
+	}
+	return product;
 }
 
 // Do not edit this line;
